@@ -1,4 +1,4 @@
-module github.com/home-assistant/plugin-observer
+module github.com/muthur-command/plugin-observer
 
 go 1.25.0
 

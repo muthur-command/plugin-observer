@@ -15,7 +15,7 @@ import (
 
 var cli *client.Client
 var apiKey string //nolint
-var hassioNetwork *net.IPNet
+var mcioNetwork *net.IPNet
 var indexTemplate *template.Template
 var wwwRoot string
 var development bool
@@ -34,7 +34,7 @@ func main() {
 	if env := os.Getenv("NETWORK_MASK"); env != "" {
 		networkMask = env
 	}
-	_, hassioNetwork, _ = net.ParseCIDR(networkMask)
+	_, mcioNetwork, _ = net.ParseCIDR(networkMask)
 
 	// system settings
 	apiKey = os.Getenv("SUPERVISOR_TOKEN")

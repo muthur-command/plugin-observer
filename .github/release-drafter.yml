@@ -1,4 +1,6 @@
 template: |
+  **MCOS** observer plugin (`ghcr.io/muthur-command/mcio-observer`, **`io.mcio.*`** labels). See **README.md**.
+
   ## What's Changed
 
   $CHANGES

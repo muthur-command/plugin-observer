@@ -15,7 +15,7 @@ func checkNetwork(r *http.Request) bool {
 	remoteIP := net.ParseIP(remote)
 
 	// Is in network
-	if !hassioNetwork.Contains(remoteIP) {
+	if !mcioNetwork.Contains(remoteIP) {
 		log.Printf("Access not allow from %s", remote)
 		return false
 	}
