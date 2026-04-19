@@ -6,6 +6,11 @@ on:
     - cron: "45 5 * * *"
   workflow_dispatch:
 
+# Reusable workflow jobs need write access to issues/PRs for actions/stale.
+permissions:
+  issues: write
+  pull-requests: write
+
 jobs:
   workflows:
     uses: muthur-command/actions/.github/workflows/stale.yaml@mc
