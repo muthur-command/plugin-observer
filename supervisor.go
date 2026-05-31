@@ -132,7 +132,7 @@ func getResolutionInfo() (ResolutionInfo, error) {
 
 func supervisorLogs(w io.Writer) error {
 	// Read logs from container
-	reader, err := cli.ContainerLogs(context.Background(), "mcio_supervisor", container.LogsOptions{
+	reader, err := cli.ContainerLogs(context.Background(), "mcos_supervisor", container.LogsOptions{
 		ShowStdout: true,
 		ShowStderr: true,
 		Follow:     false,

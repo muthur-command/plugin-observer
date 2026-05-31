@@ -23,7 +23,7 @@ env:
   ARCHITECTURES: '["amd64", "aarch64"]'
   BUILD_NAME: observer
   BUILD_TYPE: plugin
-  IMAGE_NAME: mcio-observer
+  IMAGE_NAME: mcos-observer
 
 permissions:
   contents: write

@@ -20,4 +20,4 @@ COPY rootfs /
 
 ENTRYPOINT ["/usr/bin/observer"]
 
-LABEL     io.mcio.type="observer"     org.opencontainers.image.title="Muthur Command OS observer plugin"     org.opencontainers.image.description="Supervisor-managed observer plugin container for Muthur Command OS"     org.opencontainers.image.authors="muthur-command (fork; upstream copyright in LICENSE)"     org.opencontainers.image.url="https://github.com/muthur-command/plugin-observer"     org.opencontainers.image.documentation="https://github.com/muthur-command/plugin-observer"     org.opencontainers.image.licenses="Apache License 2.0"
+LABEL     io.mcos.type="observer"     org.opencontainers.image.title="Muthur Command OS observer plugin"     org.opencontainers.image.description="Supervisor-managed observer plugin container for Muthur Command OS"     org.opencontainers.image.authors="muthur-command (fork; upstream copyright in LICENSE)"     org.opencontainers.image.url="https://github.com/muthur-command/plugin-observer"     org.opencontainers.image.documentation="https://github.com/muthur-command/plugin-observer"     org.opencontainers.image.licenses="Apache License 2.0"

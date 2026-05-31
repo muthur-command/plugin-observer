@@ -11,7 +11,7 @@ Supervisor plugin observer for **Muthur Command OS** host-side monitoring on por
 
 ## Notes
 
-- Published image name follows P0: `ghcr.io/muthur-command/{arch}-mcio-observer` (manifest `mcio-observer`).
+- Published image name follows P0: `ghcr.io/muthur-command/{arch}-mcos-observer` (manifest `mcos-observer`).
 - UI and image metadata use **Muthur Command** / **Muthur Command OS** branding.
 
 ## Origin

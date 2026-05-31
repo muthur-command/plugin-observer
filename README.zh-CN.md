@@ -9,7 +9,7 @@
 
 ## 说明
 
-- 镜像命名按 P0：`ghcr.io/muthur-command/{arch}-mcio-observer`（manifest 为 `mcio-observer`）。
+- 镜像命名按 P0：`ghcr.io/muthur-command/{arch}-mcos-observer`（manifest 为 `mcos-observer`）。
 - 前端页面与镜像元数据采用 **Muthur Command** / **Muthur Command OS** 品牌表述。
 
 ## 来源
